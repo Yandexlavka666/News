@@ -1,0 +1,159 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Партнёры GTA VI</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Arial', sans-serif;
+      background-color: #0d0d0d;
+      color: white;
+    }
+
+    .main-header {
+      background-color: #111;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 15px 30px;
+    }
+
+    .logo img {
+      height: 50px;
+    }
+
+    .navbar ul {
+      list-style: none;
+      display: flex;
+      gap: 20px;
+    }
+
+    .navbar a {
+      text-decoration: none;
+      color: #ccc;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .navbar a:hover, .navbar .active {
+      color: #ff0077;
+    }
+
+    .back-link {
+      display: inline-block;
+      margin: 20px 30px;
+      padding: 10px 22px;
+      font-weight: 700;
+      font-size: 1.1rem;
+      background: linear-gradient(45deg, #ff0077, #ff4b2b);
+      color: white;
+      text-decoration: none;
+      border-radius: 12px;
+      box-shadow: 0 0 10px #ff0077;
+      transition: background 0.3s ease;
+    }
+    .back-link:hover {
+      background: linear-gradient(45deg, #ff4b2b, #ff0077);
+    }
+
+    main {
+      max-width: 900px;
+      margin: 0 auto 60px;
+      padding: 0 20px;
+    }
+
+    h1, h2 {
+      font-weight: 900;
+      color: #ff0077;
+      text-align: center;
+      text-shadow: 0 0 8px #ff0077;
+    }
+
+    h1 {
+      font-size: 3rem;
+      margin: 40px 0 10px;
+    }
+
+    h2 {
+      font-size: 2rem;
+      margin-bottom: 40px;
+    }
+
+    ul.partners-list {
+      list-style: none;
+      padding: 0;
+      margin: 0 auto;
+      max-width: 600px;
+      display: flex;
+      justify-content: space-around;
+      gap: 20px;
+    }
+
+    ul.partners-list li {
+      background: #222;
+      border-radius: 12px;
+      padding: 30px 40px;
+      box-shadow: 0 0 15px #ff007766;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      text-align: center;
+      flex: 1 1 30%;
+      cursor: pointer;
+    }
+
+    ul.partners-list li:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0 25px #ff0077;
+    }
+
+    ul.partners-list a {
+      text-decoration: none;
+      color: #ff0077;
+      font-weight: 700;
+      font-size: 1.3rem;
+      user-select: none;
+      display: block;
+    }
+    ul.partners-list a:hover {
+      text-decoration: underline;
+    }
+
+    .main-footer {
+      background-color: #111;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+      color: #ccc;
+      border-top: 1px solid #222;
+    }
+  </style>
+</head>
+<body>
+
+  <header class="main-header">
+    <div class="logo">
+      
+      <h1>GTA VI News</h1>
+    </div>
+  </header>
+
+  <a href="Главная.html" class="back-link">← На главную</a>
+
+  <main>
+    <h1>Партнёры GTA VI</h1>
+    <h2>Наши официальные партнёры</h2>
+
+    <ul class="partners-list">
+      <li><a href="https://www.taketwo.com/" target="_blank" rel="noopener noreferrer">Take Two Interactive</a></li>
+      <li><a href="https://www.rockstargames.com/" target="_blank" rel="noopener noreferrer">Rockstar Games</a></li>
+      <li><a href="https://www.ign.com/" target="_blank" rel="noopener noreferrer">IGN</a></li>
+    </ul>
+  </main>
+
+  <footer class="main-footer">
+    &copy; 2025 News. Все права защищены.
+  </footer>
+
+</body>
+</html>
